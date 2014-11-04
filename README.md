@@ -31,7 +31,7 @@ app.plug(pluginInstance);
 
 ### actionContext
 
-Provides full access to the routr instance. See [https://github.com/yahoo/routr](routr docs) for more information.
+Provides full access to the routr instance. See [routr docs](https://github.com/yahoo/routr) for more information.
 
  * `actionContext.routr.makePath(routeName, routeParams)`: Create a URL based on route name and params
  * `actionContext.routr.getRoute(path)`: Returns matched route
