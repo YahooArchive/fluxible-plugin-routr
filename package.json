@@ -1,6 +1,6 @@
 {
   "name": "fluxible-plugin-routr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A plugin for fluxible applications to provide routing methods",
   "main": "index.js",
   "scripts": {
