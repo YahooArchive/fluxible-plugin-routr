@@ -1,7 +1,7 @@
 # Routr Plugin for Fluxible App
 [![Build Status](https://travis-ci.org/yahoo/fluxible-plugin-routr.svg?branch=master)](https://travis-ci.org/yahoo/fluxible-plugin-routr) [![Dependency Status](https://david-dm.org/yahoo/fluxible-plugin-routr.svg)](https://david-dm.org/yahoo/fluxible-plugin-routr) [![Coverage Status](https://coveralls.io/repos/yahoo/fluxible-plugin-routr/badge.png?branch=master)](https://coveralls.io/r/yahoo/fluxible-plugin-routr?branch=master)
 
-Provides routing methods to your [Fluxible application](github.com/yahoo/fluxible-app) using [routr](github.com/yahoo/routr).
+Provides routing methods to your [Fluxible application](https://github.com/yahoo/fluxible-app) using [routr](https://github.com/yahoo/routr).
 
 ## Usage
 
