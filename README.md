@@ -8,7 +8,7 @@ Provides routing methods to your [Fluxible application](https://github.com/yahoo
 ```js
 var FluxibleApp = require('fluxible-app');
 var routrPlugin = require('fluxible-plugin-routr');
-var app = new FluxApplication();
+var app = new FluxibleApp();
 
 var pluginInstance = routrPlugin({
     routes: {
