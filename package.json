@@ -13,14 +13,14 @@
     "routr": "^0.0.x"
   },
   "devDependencies": {
-    "chai": "~1.9.1",
+    "chai": "^1.10.0",
     "coveralls": "^2.11.1",
     "fluxible-app": "^0.1.0",
     "grunt": "^0.4.5",
-    "istanbul": "~0.2.7",
+    "istanbul": "^0.3.2",
     "jshint": "^2.5.5",
-    "mocha": "~1.18.2",
-    "mockery": "~1.4.0",
+    "mocha": "^2.0.1",
+    "mockery": "^1.4.0",
     "precommit-hook": "1.0.x"
   },
   "author": "Michael Ridgway <mridgway@yahoo-inc.com>",
