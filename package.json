@@ -3,6 +3,10 @@
   "version": "0.3.0",
   "description": "A plugin for fluxible applications to provide routing methods",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yahoo/fluxible-plugin-routr.git"
+  },
   "scripts": {
     "test": "mocha tests/unit/ --recursive --reporter spec",
     "cover": "istanbul cover --dir artifacts -- ./node_modules/mocha/bin/_mocha tests/unit/ --recursive --reporter spec",
