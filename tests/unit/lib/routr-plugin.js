@@ -7,7 +7,7 @@
 
 var expect = require('chai').expect;
 var routrPlugin = require('../../../lib/routr-plugin');
-var FluxibleApp = require('fluxible-app');
+var Fluxible = require('fluxible');
 
 describe('fetchrPlugin', function () {
     var app,
@@ -28,7 +28,7 @@ describe('fetchrPlugin', function () {
         };
 
     beforeEach(function () {
-        app = new FluxibleApp();
+        app = new Fluxible();
         pluginInstance = routrPlugin({
             routes: routes
         });

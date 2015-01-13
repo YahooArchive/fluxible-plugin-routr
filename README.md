@@ -1,4 +1,4 @@
-# Routr Plugin for Fluxible App
+# Routr Plugin for Fluxible
 
 [![npm version](https://badge.fury.io/js/fluxible-plugin-routr.svg)](http://badge.fury.io/js/fluxible-plugin-routr)
 [![Build Status](https://travis-ci.org/yahoo/fluxible-plugin-routr.svg?branch=master)](https://travis-ci.org/yahoo/fluxible-plugin-routr)
@@ -6,14 +6,14 @@
 [![devDependency Status](https://david-dm.org/yahoo/fluxible-plugin-routr/dev-status.svg)](https://david-dm.org/yahoo/fluxible-plugin-routr#info=devDependencies)
 [![Coverage Status](https://coveralls.io/repos/yahoo/fluxible-plugin-routr/badge.png?branch=master)](https://coveralls.io/r/yahoo/fluxible-plugin-routr?branch=master)
 
-Provides routing methods to your [Fluxible application](https://github.com/yahoo/fluxible-app) using [routr](https://github.com/yahoo/routr).
+Provides routing methods to your [Fluxible](https://github.com/yahoo/fluxible) application using [routr](https://github.com/yahoo/routr).
 
 ## Usage
 
 ```js
-var FluxibleApp = require('fluxible-app');
+var Fluxible = require('fluxible');
 var routrPlugin = require('fluxible-plugin-routr');
-var app = new FluxibleApp();
+var app = new Fluxible();
 
 var pluginInstance = routrPlugin({
     routes: {
@@ -38,8 +38,8 @@ app.plug(pluginInstance);
 
 Provides full access to the routr instance. See [routr docs](https://github.com/yahoo/routr) for more information.
 
- * `actionContext.routr.makePath(routeName, routeParams)`: Create a URL based on route name and params
- * `actionContext.routr.getRoute(path)`: Returns matched route
+ * `actionContext.router.makePath(routeName, routeParams)`: Create a URL based on route name and params
+ * `actionContext.router.getRoute(path)`: Returns matched route
 
 ## Other Methods
 

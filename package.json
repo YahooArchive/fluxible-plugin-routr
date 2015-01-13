@@ -1,7 +1,7 @@
 {
   "name": "fluxible-plugin-routr",
   "version": "0.3.0",
-  "description": "A plugin for fluxible applications to provide routing methods",
+  "description": "A plugin for Fluxible applications to provide routing methods",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "chai": "^1.10.0",
     "coveralls": "^2.11.1",
-    "fluxible-app": "^0.1.0",
+    "fluxible": "^0.1.0",
     "grunt": "^0.4.5",
     "istanbul": "^0.3.2",
     "jshint": "^2.5.5",
