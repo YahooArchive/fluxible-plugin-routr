@@ -36,7 +36,7 @@ app.plug(pluginInstance);
 
 ### Constructor(options)
 
-Creates a new fetchr plugin instance with the following parameters:
+Creates a new routr plugin instance with the following parameters:
 
  * `options`: An object containing the plugin settings
  * `options.routes` (required): Stores your routes configuration
