@@ -70,4 +70,41 @@ describe('fetchrPlugin', function () {
         });
     });
 
+    describe('dehydrate', function () {        
+        it('should dehydrate its state correctly', function () {       
+            expect(pluginInstance.dehydrate()).to.deep.equal({     
+                routes: routes     
+            });        
+        });        
+    });        
+
+    describe('rehydrate', function () {        
+        var newRoutes = {      
+            foo: {     
+                path: '/bar',      
+                method: 'get'      
+            }      
+        };     
+        it('should rehydrate the state correctly', function () {       
+            pluginInstance.rehydrate({     
+                routes: newRoutes      
+            });        
+            expect(pluginInstance.dehydrate()).to.deep.equal({     
+                routes: newRoutes      
+            });        
+        });        
+        it('should use rehydrated routes', function () {       
+            var a = new Fluxible();
+            var p = routrPlugin();     
+            p.rehydrate({      
+                routes: newRoutes      
+            });        
+            a.plug(p);     
+            var c = a.createContext();     
+            expect(p.getRoutes()).to.deep.equal(newRoutes);        
+            expect(c.getActionContext().router.makePath('foo')).to.equal('/bar');      
+            expect(c.getComponentContext().makePath('foo')).to.equal('/bar');      
+        });        
+    });        
+
 });
