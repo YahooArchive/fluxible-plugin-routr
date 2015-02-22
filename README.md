@@ -8,7 +8,7 @@
 
 Provides routing methods to your [Fluxible](https://github.com/yahoo/fluxible) application using [routr](https://github.com/yahoo/routr).
 
-## Usage
+## Static Routes Usage
 
 ```js
 var Fluxible = require('fluxible');
@@ -31,6 +31,21 @@ var pluginInstance = routrPlugin({
 
 app.plug(pluginInstance);
 ```
+
+## Dynamic Routes Usage
+
+```js
+var Fluxible = require('fluxible');
+var routrPlugin = require('fluxible-plugin-routr');
+var app = new Fluxible();
+
+var pluginInstance = routrPlugin({
+    storeName: 'RoutesStore', // storeName of the Store event source
+    storeEvent: 'change'      // Any event from that Store
+});
+
+app.plug(pluginInstance);
+```
 [//]: # (API_START)
 ## Routr Plugin API
 
@@ -39,7 +54,11 @@ app.plug(pluginInstance);
 Creates a new routr plugin instance with the following parameters:
 
  * `options`: An object containing the plugin settings
- * `options.routes` (required): Stores your routes configuration
+ * `options.routes` (required, static routes): Stores your routes configuration
+ * `options.storeName` (required, dynamic routes): The storeName of the Store
+ * `options.storeEvent` (required, dynamic routes): The name of the event from the Store
+ * `options.dehydrateRoutes` (optional, dynamic routes): A function to transform from fluxible routes to JSON
+ * `options.rehydrateRoutes` (optional, dynamic routes): A function to transform from JSON to fluxible routes
 
 ### Instance Methods
 
