@@ -1,6 +1,6 @@
 {
   "name": "fluxible-plugin-routr",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A plugin for Fluxible applications to provide routing methods",
   "main": "index.js",
   "repository": {
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "mocha tests/unit/ --recursive --reporter spec",
     "cover": "istanbul cover --dir artifacts -- ./node_modules/mocha/bin/_mocha tests/unit/ --recursive --reporter spec",
-    "lint": "jshint"
+    "lint": "jshint ."
   },
   "dependencies": {
     "debug": "^2.0.0",
@@ -28,7 +28,12 @@
     "precommit-hook": "1.0.x"
   },
   "author": "Michael Ridgway <mridgway@yahoo-inc.com>",
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Alex Grant",
+      "email": "alex@localnerve.com"
+    }
+  ],
   "licenses": [
     {
       "type": "BSD",
