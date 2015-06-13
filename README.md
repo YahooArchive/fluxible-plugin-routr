@@ -1,5 +1,7 @@
 # Routr Plugin for Fluxible
 
+***Notice: This package is deprecated in favor of [`fluxible-router`](https://github.com/yahoo/fluxible-router).***
+
 [![npm version](https://badge.fury.io/js/fluxible-plugin-routr.svg)](http://badge.fury.io/js/fluxible-plugin-routr)
 [![Build Status](https://travis-ci.org/yahoo/fluxible-plugin-routr.svg?branch=master)](https://travis-ci.org/yahoo/fluxible-plugin-routr)
 [![Dependency Status](https://david-dm.org/yahoo/fluxible-plugin-routr.svg)](https://david-dm.org/yahoo/fluxible-plugin-routr)
