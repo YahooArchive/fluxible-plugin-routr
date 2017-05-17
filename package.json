@@ -14,18 +14,18 @@
   },
   "dependencies": {
     "debug": "^2.0.0",
-    "routr": "^0.1.0"
+    "routr": "^2.1.0"
   },
   "devDependencies": {
-    "chai": "^2.0.0",
+    "chai": "^3.5.0",
     "coveralls": "^2.11.1",
-    "fluxible": "^0.2.2",
-    "grunt": "^0.4.5",
-    "istanbul": "^0.3.2",
+    "fluxible": "^1.4.0",
+    "grunt": "^1.0.1",
+    "istanbul": "^0.4.5",
     "jshint": "^2.5.5",
-    "mocha": "^2.0.1",
-    "mockery": "^1.4.0",
-    "precommit-hook": "1.0.x"
+    "mocha": "^3.4.1",
+    "mockery": "^2.0.0",
+    "precommit-hook": "~3.0.0"
   },
   "author": "Michael Ridgway <mridgway@yahoo-inc.com>",
   "contributors": [],
