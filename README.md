@@ -1,5 +1,7 @@
 # Routr Plugin for Fluxible
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yahoo/fluxible-plugin-routr.svg)](https://greenkeeper.io/)
+
 ***Notice: This package is deprecated in favor of [`fluxible-router`](https://github.com/yahoo/fluxible-router).***
 
 [![npm version](https://badge.fury.io/js/fluxible-plugin-routr.svg)](http://badge.fury.io/js/fluxible-plugin-routr)
